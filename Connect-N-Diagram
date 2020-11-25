@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T17:12:18.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="XzoOuT_UqRZDyDzTiwp9" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-25T17:53:46.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="mwmNTvh_PSAwSS7RMn_-" version="13.10.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1024" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="nSKzbks8vS05VIREHqmG-1" value="Player" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100" y="146" width="140" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="nSKzbks8vS05VIREHqmG-2" value="Init" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nSKzbks8vS05VIREHqmG-1">
+        <mxCell id="nSKzbks8vS05VIREHqmG-2" value="Init()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nSKzbks8vS05VIREHqmG-1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nSKzbks8vS05VIREHqmG-3" value="Name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nSKzbks8vS05VIREHqmG-1">
@@ -41,7 +41,7 @@
         </mxCell>
         <object label="Game" id="nSKzbks8vS05VIREHqmG-9">
           <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-            <mxGeometry x="400" y="146" width="140" height="122" as="geometry" />
+            <mxGeometry x="400" y="146" width="140" height="160" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="nSKzbks8vS05VIREHqmG-10" value="Init(N)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nSKzbks8vS05VIREHqmG-9">
@@ -54,7 +54,10 @@
           <mxGeometry y="78" width="140" height="22" as="geometry" />
         </mxCell>
         <mxCell id="nSKzbks8vS05VIREHqmG-14" value="Is_board_full()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nSKzbks8vS05VIREHqmG-9">
-          <mxGeometry y="100" width="140" height="22" as="geometry" />
+          <mxGeometry y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nSKzbks8vS05VIREHqmG-21" value="Board" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nSKzbks8vS05VIREHqmG-9">
+          <mxGeometry y="130" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nSKzbks8vS05VIREHqmG-13" value="Plays at" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="80" relative="1" as="geometry">
