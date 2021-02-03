@@ -105,8 +105,8 @@ class game:
                             logging.info(PLAYER_WON_GAME_OVER,player.name)
                             print(player.name, WON_GAME_OVER)
                             return True
-                else:
-                    how_many_in_a_row = 0
+                    else:
+                        how_many_in_a_row = 0
 
         return False
 
