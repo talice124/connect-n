@@ -31,6 +31,7 @@ LINE = "|"
 DISK1 = "X"
 DISK2 = "O"
 DOT = "."
+COMMA = ", "
 
 logging.basicConfig(filename='test.log', level=logging.DEBUG)
 
@@ -190,7 +191,7 @@ class display:
     def get_move_from_player(self,player):
         need_column = True
         while (need_column):
-            val = input(WHICH_COLUMN_NEXT_MOVE)
+            val = input(player.name + COMMA + WHICH_COLUMN_NEXT_MOVE)
             try:
             # check input value
                 int_val = int(val)
